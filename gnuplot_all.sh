@@ -1,0 +1,6 @@
+gnuplot -e "load 'plot_1.txt'"
+gnuplot -e "load 'plot_2.txt'"
+gnuplot -e "load 'plot_3.txt'"
+gnuplot -e "load 'plot_4.txt'"
+gnuplot -e "load 'plot_5.txt'"
+gnuplot -e "load 'plot_6.txt'"
