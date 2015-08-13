@@ -1,14 +1,11 @@
 extension=".s"
 r_extension="_result.txt"
 
-for j in `seq 1 1 3`
+for j in `seq 1 1 2`
 do  
     
 	if [ $j == 1 ]; then
-		file="non_recursive_conditional_add_with_it"
-		echo $file
-	elif [ $j == 2 ]; then
-		file="non_recursive_conditional_add_without_it"
+		file="non_recursive_conditional_add"
 		echo $file
 	else
 		file="non_recursive_count_down_loop"

@@ -20,7 +20,7 @@ set key box
 set mouse
 
 plot "./result/fast_doubling_32_result.txt" using 1:3 with linespoints title "Fast Doubling(32bit)" @style7, \
-"./result/non_recursive_conditional_add_without_it_result.txt" using 1:3 with linespoints title "non-recursive(conditional_add without it)" @style6
+"./result/non_recursive_conditional_add.txt" using 1:3 with linespoints title "non-recursive(conditional_add)" @style6
 set terminal postscript color
 set output "./iterative methods with fast fibonacci.ps"
 replot

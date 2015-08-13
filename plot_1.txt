@@ -20,7 +20,7 @@ set key box
 set mouse
 
 plot "./result/recursive_result.txt" using 1:3 with linespoints title "Recursive" @style2, \
-"./result/non_recursive_conditional_add_without_it_result.txt" using 1:3 with linespoints title "non-Recursive" @style3
+"./result/non_recursive_conditional_add.txt" using 1:3 with linespoints title "non-Recursive" @style3
 set terminal postscript color
 set output "./recursive_vs_non-recursive.ps"
 replot
